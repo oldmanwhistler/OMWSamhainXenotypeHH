@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <OMW_SamhainSettingsCategory>삼하인 제노타입 - 숨겨진 굶주림</OMW_SamhainSettingsCategory>
+  <OMW_SettingsTabCostumes>의상</OMW_SettingsTabCostumes>
+  <OMW_SettingsTabAdditionalFullHead>추가 FullHead 장비</OMW_SettingsTabAdditionalFullHead>
+  <OMW_SettingsTabLogging>로그</OMW_SettingsTabLogging>
+  <OMW_AdditionalFullHeadDescription>이 의류는 머리 전체를 덮지만 엄선된 의상 목록에는 포함되지 않습니다. 활성화하면 머리 장비로 선택될 수 있으며, 기본값은 모두 비활성화입니다.</OMW_AdditionalFullHeadDescription>
+  <OMW_AdditionalFullHeadItemLine>{0} — {1}</OMW_AdditionalFullHeadItemLine>
+  <OMW_NoAdditionalFullHeadItems>로드된 추가 FullHead 의류가 없습니다.</OMW_NoAdditionalFullHeadItems>
+  <OMW_CostumeSettingsSave>저장</OMW_CostumeSettingsSave>
+  <OMW_CostumeSettingsReset>초기화</OMW_CostumeSettingsReset>
+  <OMW_CostumeSettingsSaved>의상 설정을 저장했습니다.</OMW_CostumeSettingsSaved>
+  <OMW_CostumeSettingsResetDone>의상 선택을 기본값으로 초기화했습니다.</OMW_CostumeSettingsResetDone>
+  <OMW_LogCostumeAssignments>의상 적용 상세 정보 기록</OMW_LogCostumeAssignments>
+  <OMW_LogCostumeAssignmentsDescription>활성화하면 의상을 적용할 때마다 제거된 의류와 추가되거나 교체된 아이템을 포함한 메시지를 Player.log에 기록합니다.</OMW_LogCostumeAssignmentsDescription>
+  <OMW_CostumePoolUnavailable>현재 활성화된 모드에서 사용할 수 있는 의상 풀이 없습니다.</OMW_CostumePoolUnavailable>
+  <OMW_NoSupportedCostumes>사용 가능한 지원 의상이 없습니다.</OMW_NoSupportedCostumes>
+  <OMW_CostumeHeadwearLine>머리 장비: {0} — {1}</OMW_CostumeHeadwearLine>
+  <OMW_CostumeBodyLine>몸통 장비: {0} — {1}</OMW_CostumeBodyLine>
+  <OMW_CostumeNoBodyLine>몸통 장비: 제한 없음</OMW_CostumeNoBodyLine>
+  <OMW_CostumeStageBoth>성인 및 어린이</OMW_CostumeStageBoth>
+  <OMW_CostumeStageAdult>성인</OMW_CostumeStageAdult>
+  <OMW_CostumeStageChild>어린이</OMW_CostumeStageChild>
+  <OMW_CostumeStageLine>사용 단계: {0}</OMW_CostumeStageLine>
+  <OMW_CostumeSourceHeader>{0}의 의상</OMW_CostumeSourceHeader>
+  <OMW_CostumeFullHeadWarning>경고: 이 의상은 FullHead 착용으로 처리되지 않습니다.</OMW_CostumeFullHeadWarning>
+  <OMW_UnknownMod>알 수 없는 출처</OMW_UnknownMod>
+</LanguageData>

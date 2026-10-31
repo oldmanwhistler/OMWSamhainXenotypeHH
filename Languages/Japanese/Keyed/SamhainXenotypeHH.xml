@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <OMW_SamhainSettingsCategory>サムハイン異種族 — 隠された飢え</OMW_SamhainSettingsCategory>
+  <OMW_SettingsTabCostumes>衣装</OMW_SettingsTabCostumes>
+  <OMW_SettingsTabAdditionalFullHead>追加のFullHead装備</OMW_SettingsTabAdditionalFullHead>
+  <OMW_SettingsTabLogging>ログ</OMW_SettingsTabLogging>
+  <OMW_AdditionalFullHeadDescription>これらの装備は頭部全体を覆いますが、厳選された衣装一覧には含まれていません。有効にすると頭部装備として選ばれる場合があります。初期状態ではすべて無効です。</OMW_AdditionalFullHeadDescription>
+  <OMW_AdditionalFullHeadItemLine>{0} — {1}</OMW_AdditionalFullHeadItemLine>
+  <OMW_NoAdditionalFullHeadItems>追加のFullHead装備は読み込まれていません。</OMW_NoAdditionalFullHeadItems>
+  <OMW_CostumeSettingsSave>保存</OMW_CostumeSettingsSave>
+  <OMW_CostumeSettingsReset>リセット</OMW_CostumeSettingsReset>
+  <OMW_CostumeSettingsSaved>衣装設定を保存しました。</OMW_CostumeSettingsSaved>
+  <OMW_CostumeSettingsResetDone>衣装の選択を初期設定に戻しました。</OMW_CostumeSettingsResetDone>
+  <OMW_LogCostumeAssignments>衣装の割り当て詳細を記録</OMW_LogCostumeAssignments>
+  <OMW_LogCostumeAssignmentsDescription>有効にすると、衣装を適用するたびにPlayer.logへ記録します。取り外した装備と、追加または置き換えたアイテムも含まれます。</OMW_LogCostumeAssignmentsDescription>
+  <OMW_CostumePoolUnavailable>有効なMODで利用できる衣装プールがありません。</OMW_CostumePoolUnavailable>
+  <OMW_NoSupportedCostumes>利用可能な対応衣装がありません。</OMW_NoSupportedCostumes>
+  <OMW_CostumeHeadwearLine>頭部装備：{0} — {1}</OMW_CostumeHeadwearLine>
+  <OMW_CostumeBodyLine>胴体装備：{0} — {1}</OMW_CostumeBodyLine>
+  <OMW_CostumeNoBodyLine>胴体装備：指定なし</OMW_CostumeNoBodyLine>
+  <OMW_CostumeStageBoth>成人・子供</OMW_CostumeStageBoth>
+  <OMW_CostumeStageAdult>成人</OMW_CostumeStageAdult>
+  <OMW_CostumeStageChild>子供</OMW_CostumeStageChild>
+  <OMW_CostumeStageLine>対象年齢：{0}</OMW_CostumeStageLine>
+  <OMW_CostumeSourceHeader>{0}の衣装</OMW_CostumeSourceHeader>
+  <OMW_CostumeFullHeadWarning>警告：この衣装はFullHead装備として扱われません。</OMW_CostumeFullHeadWarning>
+  <OMW_UnknownMod>不明な提供元</OMW_UnknownMod>
+</LanguageData>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <OMW_SamhainSettingsCategory>Xenotipo Samhain - Hambres ocultas</OMW_SamhainSettingsCategory>
+  <OMW_SettingsTabCostumes>Disfraces</OMW_SettingsTabCostumes>
+  <OMW_SettingsTabAdditionalFullHead>Equipo FullHead adicional</OMW_SettingsTabAdditionalFullHead>
+  <OMW_SettingsTabLogging>Registro</OMW_SettingsTabLogging>
+  <OMW_AdditionalFullHeadDescription>Estas prendas cubren toda la cabeza, pero no están en la lista de disfraces seleccionados. Al activarlas, pueden elegirse como prendas para la cabeza. Todas empiezan desactivadas.</OMW_AdditionalFullHeadDescription>
+  <OMW_AdditionalFullHeadItemLine>{0} — {1}</OMW_AdditionalFullHeadItemLine>
+  <OMW_NoAdditionalFullHeadItems>No hay prendas FullHead adicionales cargadas.</OMW_NoAdditionalFullHeadItems>
+  <OMW_CostumeSettingsSave>Guardar</OMW_CostumeSettingsSave>
+  <OMW_CostumeSettingsReset>Restablecer</OMW_CostumeSettingsReset>
+  <OMW_CostumeSettingsSaved>Se guardaron los ajustes de los disfraces.</OMW_CostumeSettingsSaved>
+  <OMW_CostumeSettingsResetDone>Se restablecieron las selecciones de disfraces a sus valores predeterminados.</OMW_CostumeSettingsResetDone>
+  <OMW_LogCostumeAssignments>Registrar detalles de asignación de disfraces</OMW_LogCostumeAssignments>
+  <OMW_LogCostumeAssignmentsDescription>Cuando está activado, se escribe un mensaje en Player.log cada vez que se aplica un disfraz, incluidos los objetos retirados y los añadidos o sustituidos.</OMW_LogCostumeAssignmentsDescription>
+  <OMW_CostumePoolUnavailable>No hay un conjunto de disfraces disponible para los mods activos.</OMW_CostumePoolUnavailable>
+  <OMW_NoSupportedCostumes>No hay disfraces compatibles disponibles.</OMW_NoSupportedCostumes>
+  <OMW_CostumeHeadwearLine>Prenda para la cabeza: {0} — {1}</OMW_CostumeHeadwearLine>
+  <OMW_CostumeBodyLine>Prenda corporal: {0} — {1}</OMW_CostumeBodyLine>
+  <OMW_CostumeNoBodyLine>Prenda corporal: cualquiera</OMW_CostumeNoBodyLine>
+  <OMW_CostumeStageBoth>adultos y niños</OMW_CostumeStageBoth>
+  <OMW_CostumeStageAdult>adultos</OMW_CostumeStageAdult>
+  <OMW_CostumeStageChild>niños</OMW_CostumeStageChild>
+  <OMW_CostumeStageLine>Se usa para: {0}</OMW_CostumeStageLine>
+  <OMW_CostumeSourceHeader>Disfraces de {0}</OMW_CostumeSourceHeader>
+  <OMW_CostumeFullHeadWarning>Aviso: este disfraz no cuenta como equipo FullHead.</OMW_CostumeFullHeadWarning>
+  <OMW_UnknownMod>Origen desconocido</OMW_UnknownMod>
+</LanguageData>

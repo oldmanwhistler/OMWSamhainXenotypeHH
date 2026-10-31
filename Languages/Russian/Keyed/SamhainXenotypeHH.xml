@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <OMW_SamhainSettingsCategory>Ксенотип Самайна — тайный голод</OMW_SamhainSettingsCategory>
+  <OMW_SettingsTabCostumes>Костюмы</OMW_SettingsTabCostumes>
+  <OMW_SettingsTabAdditionalFullHead>Дополнительные FullHead-предметы</OMW_SettingsTabAdditionalFullHead>
+  <OMW_SettingsTabLogging>Журнал</OMW_SettingsTabLogging>
+  <OMW_AdditionalFullHeadDescription>Эти предметы закрывают всю голову, но не входят в список подобранных костюмов. Если включить предмет, он может быть выбран в качестве головного убора. По умолчанию все отключены.</OMW_AdditionalFullHeadDescription>
+  <OMW_AdditionalFullHeadItemLine>{0} — {1}</OMW_AdditionalFullHeadItemLine>
+  <OMW_NoAdditionalFullHeadItems>Дополнительные предметы FullHead не загружены.</OMW_NoAdditionalFullHeadItems>
+  <OMW_CostumeSettingsSave>Сохранить</OMW_CostumeSettingsSave>
+  <OMW_CostumeSettingsReset>Сбросить</OMW_CostumeSettingsReset>
+  <OMW_CostumeSettingsSaved>Настройки костюмов сохранены.</OMW_CostumeSettingsSaved>
+  <OMW_CostumeSettingsResetDone>Выбор костюмов сброшен до значений по умолчанию.</OMW_CostumeSettingsResetDone>
+  <OMW_LogCostumeAssignments>Записывать подробности назначения костюмов</OMW_LogCostumeAssignments>
+  <OMW_LogCostumeAssignmentsDescription>Если включено, при каждом применении костюма в Player.log записывается сообщение, включая снятую одежду и добавленные или заменённые предметы.</OMW_LogCostumeAssignmentsDescription>
+  <OMW_CostumePoolUnavailable>Для активных модов нет доступного набора костюмов.</OMW_CostumePoolUnavailable>
+  <OMW_NoSupportedCostumes>Нет доступных поддерживаемых костюмов.</OMW_NoSupportedCostumes>
+  <OMW_CostumeHeadwearLine>Головной убор: {0} — {1}</OMW_CostumeHeadwearLine>
+  <OMW_CostumeBodyLine>Одежда для тела: {0} — {1}</OMW_CostumeBodyLine>
+  <OMW_CostumeNoBodyLine>Одежда для тела: любая</OMW_CostumeNoBodyLine>
+  <OMW_CostumeStageBoth>взрослые и дети</OMW_CostumeStageBoth>
+  <OMW_CostumeStageAdult>взрослые</OMW_CostumeStageAdult>
+  <OMW_CostumeStageChild>дети</OMW_CostumeStageChild>
+  <OMW_CostumeStageLine>Для этапа жизни: {0}</OMW_CostumeStageLine>
+  <OMW_CostumeSourceHeader>Костюмы из мода «{0}»</OMW_CostumeSourceHeader>
+  <OMW_CostumeFullHeadWarning>Внимание: этот костюм не считается покрывающим всю голову (FullHead).</OMW_CostumeFullHeadWarning>
+  <OMW_UnknownMod>Неизвестный источник</OMW_UnknownMod>
+</LanguageData>

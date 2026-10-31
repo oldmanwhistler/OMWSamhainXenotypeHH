@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <OMW_SamhainSettingsCategory>萨温异种 - 隐秘的饥饿</OMW_SamhainSettingsCategory>
+  <OMW_SettingsTabCostumes>服饰</OMW_SettingsTabCostumes>
+  <OMW_SettingsTabAdditionalFullHead>其他全头覆盖装备</OMW_SettingsTabAdditionalFullHead>
+  <OMW_SettingsTabLogging>日志</OMW_SettingsTabLogging>
+  <OMW_AdditionalFullHeadDescription>这些装备覆盖整个头部，但不在精选服饰列表中。启用后，它们可能会作为头部装备被选中；默认全部关闭。</OMW_AdditionalFullHeadDescription>
+  <OMW_AdditionalFullHeadItemLine>{0} — {1}</OMW_AdditionalFullHeadItemLine>
+  <OMW_NoAdditionalFullHeadItems>当前没有已加载的其他 FullHead 装备。</OMW_NoAdditionalFullHeadItems>
+  <OMW_CostumeSettingsSave>保存</OMW_CostumeSettingsSave>
+  <OMW_CostumeSettingsReset>重置</OMW_CostumeSettingsReset>
+  <OMW_CostumeSettingsSaved>服饰设置已保存。</OMW_CostumeSettingsSaved>
+  <OMW_CostumeSettingsResetDone>服饰选择已重置为默认值。</OMW_CostumeSettingsResetDone>
+  <OMW_LogCostumeAssignments>记录服饰分配详情</OMW_LogCostumeAssignments>
+  <OMW_LogCostumeAssignmentsDescription>启用后，每次应用服饰时都会在 Player.log 中记录消息，包括被移除的装备以及新增或替换的物品。</OMW_LogCostumeAssignmentsDescription>
+  <OMW_CostumePoolUnavailable>当前启用的模组没有可用的服饰池。</OMW_CostumePoolUnavailable>
+  <OMW_NoSupportedCostumes>没有可用的受支持服饰。</OMW_NoSupportedCostumes>
+  <OMW_CostumeHeadwearLine>头部装备：{0} — {1}</OMW_CostumeHeadwearLine>
+  <OMW_CostumeBodyLine>身体装备：{0} — {1}</OMW_CostumeBodyLine>
+  <OMW_CostumeNoBodyLine>身体装备：不限</OMW_CostumeNoBodyLine>
+  <OMW_CostumeStageBoth>成年与儿童</OMW_CostumeStageBoth>
+  <OMW_CostumeStageAdult>成年</OMW_CostumeStageAdult>
+  <OMW_CostumeStageChild>儿童</OMW_CostumeStageChild>
+  <OMW_CostumeStageLine>适用阶段：{0}</OMW_CostumeStageLine>
+  <OMW_CostumeSourceHeader>来自 {0} 的服饰</OMW_CostumeSourceHeader>
+  <OMW_CostumeFullHeadWarning>警告：这套服饰不属于 FullHead 装备。</OMW_CostumeFullHeadWarning>
+  <OMW_UnknownMod>未知来源</OMW_UnknownMod>
+</LanguageData>
