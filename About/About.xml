@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModMetaData>
+  <name>[OMW] Samhain Xenotype - Hidden Hungers</name>
+  <packageId>oldmanwhistler.OMWSamhainXenotypeHiddenHungers</packageId>
+  <author>oldmanwhistler</author>
+  <description></description>
+  <supportedVersions>
+    <li>1.7</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>oldmanwhistler.OMWSamhainXenotype</packageId>
+      <displayName>[OMW] Samhain Xenotype</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>ludeon.rimworld.ideology</packageId>
+      <displayName>RimWorld Ideology DLC</displayName>
+    </li>
+    <li>
+      <packageId>vanillaexpanded.vmemese</packageId>
+      <displayName>Vanilla Memes and Structures Expanded</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>oldmanwhistler.OMWSamhainXenotype</li>
+    <li>vanillaexpanded.vmemese</li>
+    <li>vanillaexpanded.vcooke</li>
+  </loadAfter>     
+</ModMetaData>

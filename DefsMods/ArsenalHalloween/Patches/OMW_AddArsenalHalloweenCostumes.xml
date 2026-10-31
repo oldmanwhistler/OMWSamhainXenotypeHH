@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/SamhainXenotypeHH.SamhainCostumePoolDef[defName="OMW_SamhainCostumePool"]/adultCostumes</xpath>
+    <value>
+      <li><headwear>ARS_HLW_Mask_HockeyG</headwear><bodyPiece>ARS_HLW_Jacket_OliveWornG</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>ARS_HLW_Mask_CurlyWigG</headwear><bodyPiece>ARS_HLW_Suit_WornDarkG</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>ARS_HLW_Mask_StitchedG</headwear><bodyPiece>ARS_HLW_Outfit_ButcherApronG</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>ARS_HLW_Mask_RedWigG</headwear><bodyPiece>ARS_HLW_Outfit_WornApronG</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>ARS_HLW_Mask_HoodedG</headwear><bodyPiece>ARS_HLW_Robe_BlackLooseG</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>ARS_HLW_Mask_PaleDarkG</headwear><bodyPiece>ARS_HLW_Coverall_GreyBlueG</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>ARS_HLW_Helmet_MinerGasMaskG</headwear><bodyPiece>ARS_HLW_Uniform_MinerBeltedG</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>ARS_HLW_Mask_PinheadHeadG</headwear><bodyPiece>ARS_HLW_Coat_StuddedBlackG</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+    </value>
+  </Operation>
+</Patch>
