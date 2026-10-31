@@ -50,7 +50,11 @@ The Sweet Tooth gene enables the Desserts need to eat desserts from Vanilla Cook
 
 ## Costume Pool
 
-In the mod settings you can add any FullHead apparel to the costume pool. I added built-in support for a lot of Halloween and Medieval mods so it would "just work" out of the box.
+Samhain will generate with a costume from the "Costume Pool" that can be configured from mod settings.
+
+The mod settings can allow any FullHead apparel from any mod to be part of the costume pool.
+
+To make it work better "out of the box" I added built-in support for a lot of Halloween and Medieval mods.
 
 See [list of mods supported for the Costume Pool](https://github.com/oldmanwhistler/OMWSamhainXenotypeHH/blob/main/Docs/Costumes-Supported.md).
 
