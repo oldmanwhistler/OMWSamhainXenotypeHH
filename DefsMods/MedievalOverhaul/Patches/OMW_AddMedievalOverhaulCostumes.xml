@@ -3,19 +3,44 @@
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/SamhainXenotypeHH.SamhainCostumePoolDef[defName="OMW_SamhainCostumePool"]/adultCostumes</xpath>
     <value>
-      <li><headwear>DankPyon_Headgear_Hood</headwear><defaultEnabled>true</defaultEnabled></li>
-      <li><headwear>DankPyon_Headgear_CultistHood</headwear><defaultEnabled>true</defaultEnabled></li>
-      <li><headwear>DankPyon_Headgear_FullArmingCap</headwear><defaultEnabled>true</defaultEnabled></li>
-      <li><headwear>DankPyon_Headgear_ChainCoif</headwear><defaultEnabled>true</defaultEnabled></li>
-      <li><headwear>DankPyon_Headgear_ChainCoifClosed</headwear><defaultEnabled>true</defaultEnabled></li>
-      <li><headwear>DankPyon_Headgear_ChainCoifFull</headwear><defaultEnabled>true</defaultEnabled></li>
-      <li><headwear>DankPyon_Headgear_WolfBascinet</headwear><defaultEnabled>true</defaultEnabled></li>
-      <li><headwear>DankPyon_Headgear_Bascinet_KlappvisierHelmetClosed</headwear><defaultEnabled>true</defaultEnabled></li>
-      <li><headwear>DankPyon_Headgear_KlappvisorBascinet</headwear><defaultEnabled>true</defaultEnabled></li>
-      <li><headwear>DankPyon_Headgear_HounskullHelmet</headwear><defaultEnabled>true</defaultEnabled></li>
-      <li><headwear>DankPyon_Headgear_HeraldicGreatHelm1c</headwear><bodyPiece>DankPyon_Apparel_Heraldic_Hauberk1c</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>DankPyon_Headgear_PaddedNasalHelmet</headwear><bodyPiece>DankPyon_Apparel_Padded_Surcoat</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>DankPyon_Headgear_PaddedKettleHelmet</headwear><bodyPiece>DankPyon_Apparel_Padded_Surcoat</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>DankPyon_Headgear_PaddedFlatTopHelmet</headwear><bodyPiece>DankPyon_Apparel_Padded_Surcoat</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>DankPyon_Headgear_ChainCoifClosed</headwear><bodyPiece>DankPyon_Apparel_Heavy_Hauberk</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>DankPyon_Headgear_ChainCoifFull</headwear><bodyPiece>DankPyon_Apparel_Heavy_Hauberk</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>DankPyon_Headgear_ChainNasalHelmet</headwear><bodyPiece>DankPyon_Apparel_Heavy_Hauberk</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>DankPyon_Headgear_ChainNasalRedHelmet</headwear><bodyPiece>DankPyon_Apparel_Heavy_Hauberk</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>DankPyon_Headgear_ChainKettleHelmet</headwear><bodyPiece>DankPyon_Apparel_Heavy_Hauberk</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>DankPyon_Headgear_Chain_FlatTopHelmet</headwear><bodyPiece>DankPyon_Apparel_Heavy_Hauberk</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>DankPyon_Headgear_ClosedChain_FlatTopHelmet</headwear><bodyPiece>DankPyon_Apparel_Heavy_Hauberk</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>DankPyon_Headgear_ChainClosedFlatTopHelmet</headwear><bodyPiece>DankPyon_Apparel_Heavy_Hauberk</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>DankPyon_Headgear_HeavyBarbrute</headwear><bodyPiece>DankPyon_Apparel_FullPlate</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>DankPyon_Headgear_OpenBascinet</headwear><bodyPiece>DankPyon_Apparel_FullPlate</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>DankPyon_Headgear_ZweihanderHelm</headwear><bodyPiece>DankPyon_Apparel_Zweihanders_Cuirass</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>DankPyon_Headgear_ZweihanderHelmAmboise</headwear><bodyPiece>DankPyon_Apparel_Zweihanders_Cuirass</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>DankPyon_Headgear_ZweihanderHelmSoren</headwear><bodyPiece>DankPyon_Apparel_Zweihanders_Cuirass</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>DankPyon_Headgear_ZweihanderHelmOswin</headwear><bodyPiece>DankPyon_Apparel_Zweihanders_Cuirass</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>DankPyon_Headgear_ZweihanderHelmHesse</headwear><bodyPiece>DankPyon_Apparel_Zweihanders_Cuirass</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>DankPyon_Headgear_ClosedBascinetHelmet</headwear><bodyPiece>DankPyon_Apparel_FullPlate</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>DankPyon_Headgear_WolfBascinet</headwear><bodyPiece>DankPyon_Apparel_FullPlate</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>DankPyon_Headgear_Bascinet_KlappvisierHelmetClosed</headwear><bodyPiece>DankPyon_Apparel_FullPlate</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>DankPyon_Headgear_KlappvisorBascinet</headwear><bodyPiece>DankPyon_Apparel_FullPlate</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>DankPyon_Headgear_HounskullHelmet</headwear><bodyPiece>DankPyon_Apparel_FullPlate</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>DankPyon_Headgear_SalletHelmet</headwear><bodyPiece>DankPyon_Apparel_FullPlate</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>DankPyon_Headgear_SalletBellowFace</headwear><bodyPiece>DankPyon_Apparel_FullPlate</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>DankPyon_Headgear_SalletGryphon</headwear><bodyPiece>DankPyon_Apparel_FullPlate</bodyPiece><defaultEnabled>true</defaultEnabled></li>
       <li><headwear>DankPyon_Headgear_GreatHelm</headwear><bodyPiece>DankPyon_Apparel_FullPlate</bodyPiece><defaultEnabled>true</defaultEnabled></li>
-      <li><headwear>DankPyon_Headgear_Armet</headwear><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>DankPyon_Headgear_HeraldicGreatHelm1c</headwear><bodyPiece>DankPyon_Apparel_Heraldic_Hauberk1c</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>DankPyon_Headgear_HeraldicGreatHelm2c</headwear><bodyPiece>DankPyon_Apparel_Heraldic_Hauberk2c</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>DankPyon_Headgear_HeraldicGreatHelm3c</headwear><bodyPiece>DankPyon_Apparel_Heraldic_Hauberk3c</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>DankPyon_Headgear_HeraldicGreatHelm4c</headwear><bodyPiece>DankPyon_Apparel_Heraldic_Hauberk4c</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>DankPyon_Headgear_Armet</headwear><bodyPiece>DankPyon_Apparel_FullPlate</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>DankPyon_Headgear_ArmetGilded</headwear><bodyPiece>DankPyon_Apparel_FullPlateGilded</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>DankPyon_Headgear_ArmetNamed</headwear><bodyPiece>DankPyon_Apparel_FullPlateNamed</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>DankPyon_Headgear_Lindwurm</headwear><bodyPiece>DankPyon_Apparel_Lindwurm</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>DankPyon_Adorned_HeavyMailCoif</headwear><bodyPiece>DankPyon_Apparel_AdornedMailShirt</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>DankPyon_Adorned_FlatTop</headwear><bodyPiece>DankPyon_Apparel_AdornedWarriorArmor</bodyPiece><defaultEnabled>true</defaultEnabled></li>
+      <li><headwear>DankPyon_Adorned_GreatHelm</headwear><bodyPiece>DankPyon_Apparel_AdornedHeavyPlate</bodyPiece><defaultEnabled>true</defaultEnabled></li>
     </value>
   </Operation>
 </Patch>
