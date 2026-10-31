@@ -1,10 +1,12 @@
-# Supported Costumes
+# Supported Costumes for the Costume Pool
+
+`Samhain Xenotype: Hidden Hungers` contains patches for these mods to add them to the Costume Pool.
 
 If the Samhain spawn unmasked, the Costume Pool will be used to find a costume for them.
 
 You can control what appears in the Costume Pool via mod settings.
 
-`Samhain Xenotype: Hidden Hungers` contains patches for these mods to add them to the costume pool.
+Any FullHead apparel can also be enabled as a costume in the mod settings even if it doesn't have a patch.
 
 ## Vanilla RimWorld Mods
 
@@ -44,24 +46,44 @@ You can control what appears in the Costume Pool via mod settings.
 
 ![Deadpool's Outfit](https://raw.githubusercontent.com/oldmanwhistler/OMWSamhainXenotypeHH/refs/heads/main/Docs/images/Costumes/Deadpool.png)
 
-### [Lava's Spooky Halloween](https://steamcommunity.com/sharedfiles/filedetails/?id=3785375776)
-
-![Lava's Spooky Halloween](https://raw.githubusercontent.com/oldmanwhistler/OMWSamhainXenotypeHH/refs/heads/main/Docs/images/Costumes/LavasSpookyHalloweenExtravaganza.png)
-
 ### [Turtleshroom's Pan-Halloweenie Integration 2](https://steamcommunity.com/sharedfiles/filedetails/?id=3593434506)
 
 ![Turtleshroom's Halloweenie Integration](https://raw.githubusercontent.com/oldmanwhistler/OMWSamhainXenotypeHH/refs/heads/main/Docs/images/Costumes/Halloweenie1.png)
 ![Turtleshroom's Halloweenie Integration](https://raw.githubusercontent.com/oldmanwhistler/OMWSamhainXenotypeHH/refs/heads/main/Docs/images/Costumes/Halloweenie2.png)
 ![Turtleshroom's Halloweenie Integration](https://raw.githubusercontent.com/oldmanwhistler/OMWSamhainXenotypeHH/refs/heads/main/Docs/images/Costumes/Halloweenie3.png)
 
-## Medieval or Costume Mods
+### [Plague Doctor's Outfit](https://steamcommunity.com/sharedfiles/filedetails/?id=3795739637)
+
+![Plague Doctor's Outfit](https://raw.githubusercontent.com/oldmanwhistler/OMWSamhainXenotypeHH/refs/heads/main/Docs/images/Costumes/PlagueDoctor.png)
 
 ### [Lisa's Peasant Apparel](https://steamcommunity.com/sharedfiles/filedetails/?id=3793374806)
 
 ![Lisa's Peasant Apparel](https://raw.githubusercontent.com/oldmanwhistler/OMWSamhainXenotypeHH/refs/heads/main/Docs/images/Costumes/LisasPeasantApparel.png)
 
-### [Plague Doctor's Outfit](https://steamcommunity.com/sharedfiles/filedetails/?id=3795739637)
+### [Lava's Spooky Halloween](https://steamcommunity.com/sharedfiles/filedetails/?id=3785375776)
 
-![Plague Doctor's Outfit](https://raw.githubusercontent.com/oldmanwhistler/OMWSamhainXenotypeHH/refs/heads/main/Docs/images/Costumes/PlagueDoctor.png)
+![Lava's Spooky Halloween](https://raw.githubusercontent.com/oldmanwhistler/OMWSamhainXenotypeHH/refs/heads/main/Docs/images/Costumes/LavasSpookyHalloweenExtravaganza.png)
 
-## Medieval Mods
+## Additional supported Workshop mods
+
+### Hats, costumes, and apparel
+
+- [Vanilla Ideology Expanded – Hats and Rags](https://steamcommunity.com/sharedfiles/filedetails/?id=2567387768)
+- [Medieval Overhaul: Barbarians](https://steamcommunity.com/sharedfiles/filedetails/?id=3216459199)
+- [Hooded Helms addon for Medieval Overhaul](https://steamcommunity.com/sharedfiles/filedetails/?id=2872166785)
+- [More Medieval Helms and Armor](https://steamcommunity.com/sharedfiles/filedetails/?id=2776681900)
+
+### Tasty Armory
+
+- [Tasty Armory – Fire and Steel](https://steamcommunity.com/sharedfiles/filedetails/?id=3469863838)
+- [Tasty Armory – Steppe Warriors](https://steamcommunity.com/sharedfiles/filedetails/?id=3472989392)
+- [Tasty Armory – High Medieval](https://steamcommunity.com/sharedfiles/filedetails/?id=3480089301)
+- [Tasty Armory – In Shining Armor](https://steamcommunity.com/sharedfiles/filedetails/?id=3482266407)
+- [Tasty Armory – Sengoku](https://steamcommunity.com/sharedfiles/filedetails/?id=3494429497)
+
+### Medieval Overhaul houses
+
+- [Medieval Overhaul](https://steamcommunity.com/sharedfiles/filedetails/?id=3219596926)
+- [Medieval Overhaul: House Roxmont](https://steamcommunity.com/sharedfiles/filedetails/?id=3526042587)
+- [Medieval Overhaul: House Ignivar](https://steamcommunity.com/sharedfiles/filedetails/?id=3712538846)
+- [Medieval Overhaul: House Zahir](https://steamcommunity.com/sharedfiles/filedetails/?id=3516409179)
