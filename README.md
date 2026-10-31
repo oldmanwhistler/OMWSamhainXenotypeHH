@@ -1,6 +1,6 @@
-# Samhain Xenotype
+# Samhain Xenotype - Hidden Hungers
 
-Small creepy nighttime xenotype perfect for carving raiders on warm Septober nights.
+- EN: Enables the Dessert and Anonymity needs for Samhain Xenotype.
 
 ## What You Get
 
@@ -29,6 +29,11 @@ These aren't required but they unlock additional content.
 ## Technical Details
 
 - VME and VCE are patched so that Anonymity and Dessert needs can be enabled by genes.
+- There are 13 items whose original apparel groups aren’t FullHead, but we patch them to FullHead so they work with anonymity.
+  - Lava’s Spooky Halloween: Cambion Mask, Harlequin Mask, Devil Mask, Skull Mask — originally Eyes.
+  - Lisa’s Peasant Apparel: Executioner Hood, Plague Doctor Mask — originally UpperHead.
+  - Pan-Halloweenie Integration II: Witches Hat, Mummy Head, Wolfman Mask, Devil Head — originally UpperHead.
+  - Biomes! Fossils: Carnivore, Herbivore, and Mascot Dino Hats — inherit UpperHead from their shared parent, which the patch changes.
 
 ## Language Support
 
