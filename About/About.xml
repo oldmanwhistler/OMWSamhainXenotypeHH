@@ -3,7 +3,21 @@
   <name>[OMW] Samhain Xenotype - Hidden Hungers</name>
   <packageId>oldmanwhistler.OMWSamhainXenotypeHiddenHungers</packageId>
   <author>oldmanwhistler</author>
-  <description></description>
+  <description># Samhain Xenotype - Hidden Hungers
+
+- EN: Adds Dessert need and Anonymity need to the [Samhain Xenotype](https://steamcommunity.com/sharedfiles/filedetails/?id=3829680933) to fully unlock their Halloween horror theme.
+- ZH: 为“萨温”（Samhain）异种类型添加了“甜点需求”与“匿名需求”，从而完整呈现其万圣节恐怖主题。
+- KO: '삼하인(Samhain)' 제노타입에 '디저트' 욕구와 '익명성' 욕구를 추가하여, 할로윈 공포 테마를 온전히 구현할 수 있도록 합니다.
+- JA: サムハイン（Samhain）」ゼノタイプに「デザート」と「匿名性」の欲求を追加し、ハロウィーンのホラーというテーマを最大限に引き出します。
+- RU: Добавляет ксенотипу «Самхейн» (Samhain) потребности в десертах и ​​анонимности, чтобы в полной мере раскрыть его тематику хеллоуинских ужасов.
+- ES: Añade la necesidad de «Postre» y la necesidad de «Anonimato» al xenotipo Samhain, para así desplegar por completo su temática de terror de Halloween.
+- FR: Ajoute le besoin de « dessert » et le besoin d’« anonymat » au xénotype Samhain, afin de concrétiser pleinement sa thématique d’horreur propre à Halloween.
+
+## What You Get
+
+- Samhain with Costumed gene will have anonymity need from Vanilla Memes and Structures Expanded no matter what their Ideology is.
+- Samhain with Sweet Tooth gene will have dessert need from Vanilla Cooking Expanded no matter what their Ideology is.
+- Costume Pool: Samhain joiners wear costumes from various mods if they are installed.</description>
   <supportedVersions>
     <li>1.7</li>
   </supportedVersions>
