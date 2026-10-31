@@ -1,6 +1,12 @@
 # Samhain Xenotype - Hidden Hungers
 
-- EN: Enables the Dessert and Anonymity needs for Samhain Xenotype to fully unlock their Halloween horror-themed xenotype.
+- EN: Adds Dessert need and Anonymity need to the [Samhain Xenotype](https://steamcommunity.com/sharedfiles/filedetails/?id=3829680933) to fully unlock their Halloween horror theme.
+- ZH: 为“萨温”（Samhain）异种类型添加了“甜点需求”与“匿名需求”，从而完整呈现其万圣节恐怖主题。
+- KO: '삼하인(Samhain)' 제노타입에 '디저트' 욕구와 '익명성' 욕구를 추가하여, 할로윈 공포 테마를 온전히 구현할 수 있도록 합니다.
+- JA: サムハイン（Samhain）」ゼノタイプに「デザート」と「匿名性」の欲求を追加し、ハロウィーンのホラーというテーマを最大限に引き出します。
+- RU: Добавляет ксенотипу «Самхейн» (Samhain) потребности в десертах и ​​анонимности, чтобы в полной мере раскрыть его тематику хеллоуинских ужасов.
+- ES: Añade la necesidad de «Postre» y la necesidad de «Anonimato» al xenotipo Samhain, para así desplegar por completo su temática de terror de Halloween.
+- FR: Ajoute le besoin de « dessert » et le besoin d’« anonymat » au xénotype Samhain, afin de concrétiser pleinement sa thématique d’horreur propre à Halloween.
 
 ## What You Get
 
@@ -16,15 +22,15 @@ Inspired by [Sam: The Soul of Halloween](https://samthesoulofhalloween.com/) cre
 
 - Biotech DLC
 - Ideology DLC
-- [Alpha Genes](https://steamcommunity.com/sharedfiles/filedetails/?id=2891845502)
-- [Big & Small: Genes and More](https://steamcommunity.com/sharedfiles/filedetails/?id=2920751126)
+- [Samhain Xenotype](https://steamcommunity.com/sharedfiles/filedetails/?id=3829680933) (and it's dependencies)
 - [Vanilla Memes and Structures Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=2636329500) (for Anonymity need with Costumed gene)
 
 ## Additional Content
 
 These aren't required but they unlock additional content.
 
-- [Vanilla Cooking Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=2134308519) (for Dessert need with Sweet Tooth gene)
+- [Vanilla Cooking Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=2134308519) - for Dessert need with Sweet Tooth gene.
+- [Sam's Trick or Treat costume](https://steamcommunity.com/sharedfiles/filedetails/?id=3827335380) - Costume from the movie.
 
 ## Anonymity Need
 
@@ -63,7 +69,7 @@ See [list of mods supported for the Costume Pool](https://github.com/oldmanwhist
 
 ## Language Support
 
-- English
+- English with machine translations for Simplified Chinese, Korean, Japanese, Russian, Spanish, and French.
 
 ## Links
 
@@ -76,5 +82,7 @@ See [list of mods supported for the Costume Pool](https://github.com/oldmanwhist
 ## DISCLAIMER
 
 This is an unofficial, non-commercial fan work, not affiliated with, endorsed by, or sponsored by Michael Dougherty or Sam: The Soul of Halloween. It does not include any assets or intellectual propery from Michael Dougherty, Trick 'R Treat, etc.
+
+![Samhain gathering](https://github.com/oldmanwhistler/OMWSamhainXenotypeHH/blob/main/Docs/images/splash-big.png)
 
 keywords: halloween, trick or treat, costumes, medieval overhaul
