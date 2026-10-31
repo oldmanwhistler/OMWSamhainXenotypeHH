@@ -7,6 +7,7 @@ namespace SamhainXenotypeHH;
 public class SamhainXenotypeHHMod : Mod
 {
     private Vector2 settingsScrollPosition;
+    private Vector2 additionalFullHeadScrollPosition;
     private int selectedSettingsTab;
 
     public SamhainXenotypeHHMod(ModContentPack content) : base(content)
@@ -23,9 +24,10 @@ public class SamhainXenotypeHHMod : Mod
     public override void DoSettingsWindowContents(Rect inRect)
     {
         const float tabHeight = 34f;
-        float tabWidth = inRect.width / 2f;
+        float tabWidth = inRect.width / 3f;
         Rect costumesTab = new(inRect.x, inRect.y, tabWidth, tabHeight);
-        Rect loggingTab = new(inRect.x + tabWidth, inRect.y, tabWidth, tabHeight);
+        Rect additionalTab = new(inRect.x + tabWidth, inRect.y, tabWidth, tabHeight);
+        Rect loggingTab = new(inRect.x + tabWidth * 2f, inRect.y, tabWidth, tabHeight);
 
         if (selectedSettingsTab == 0)
             Widgets.DrawHighlight(costumesTab);
@@ -33,9 +35,14 @@ public class SamhainXenotypeHHMod : Mod
             selectedSettingsTab = 0;
 
         if (selectedSettingsTab == 1)
+            Widgets.DrawHighlight(additionalTab);
+        if (Widgets.ButtonText(additionalTab, "OMW_SettingsTabAdditionalFullHead".Translate()))
+            selectedSettingsTab = 1;
+
+        if (selectedSettingsTab == 2)
             Widgets.DrawHighlight(loggingTab);
         if (Widgets.ButtonText(loggingTab, "OMW_SettingsTabLogging".Translate()))
-            selectedSettingsTab = 1;
+            selectedSettingsTab = 2;
 
         Rect contents = new(inRect.x, inRect.y + tabHeight + 6f, inRect.width, inRect.height - tabHeight - 6f);
         if (selectedSettingsTab == 0)
@@ -62,6 +69,8 @@ public class SamhainXenotypeHHMod : Mod
                 Messages.Message("OMW_CostumeSettingsResetDone".Translate(), MessageTypeDefOf.PositiveEvent, historical: false);
             }
         }
+        else if (selectedSettingsTab == 1)
+            SamhainAdditionalFullHeadSettingsPage.Draw(contents, Settings, ref additionalFullHeadScrollPosition, WriteSettings);
         else
             DrawLoggingSettings(contents);
     }

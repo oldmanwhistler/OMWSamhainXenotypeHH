@@ -2,7 +2,11 @@
 <LanguageData>
   <OMW_SamhainSettingsCategory>Samhain Xenotype - Hidden Hungers</OMW_SamhainSettingsCategory>
   <OMW_SettingsTabCostumes>Costumes</OMW_SettingsTabCostumes>
+  <OMW_SettingsTabAdditionalFullHead>Additional FullHead</OMW_SettingsTabAdditionalFullHead>
   <OMW_SettingsTabLogging>Logging</OMW_SettingsTabLogging>
+  <OMW_AdditionalFullHeadDescription>These apparel items cover the full head but are not in the curated costume list. Enabled items may be selected as headwear; all start disabled.</OMW_AdditionalFullHeadDescription>
+  <OMW_AdditionalFullHeadItemLine>{0} — {1}</OMW_AdditionalFullHeadItemLine>
+  <OMW_NoAdditionalFullHeadItems>No additional FullHead apparel is loaded.</OMW_NoAdditionalFullHeadItems>
   <OMW_CostumeSettingsSave>Save</OMW_CostumeSettingsSave>
   <OMW_CostumeSettingsReset>Reset</OMW_CostumeSettingsReset>
   <OMW_CostumeSettingsSaved>Costume settings saved.</OMW_CostumeSettingsSaved>

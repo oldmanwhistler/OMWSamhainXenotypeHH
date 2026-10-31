@@ -68,8 +68,18 @@ public static class SamhainCostumeGenerator
                 available.Add(costume!);
         }
 
+        List<SamhainCostumeSet> additionalCostumes = SamhainCostumePoolDef.GetAdditionalFullHeadCostumes();
+        if (settings != null)
+        {
+            foreach (SamhainCostumeSet costume in additionalCostumes)
+            {
+                if (settings.IsCostumeEnabled(costume) && CanWearCostume(__result, costume))
+                    available.Add(costume);
+            }
+        }
+
         if (shouldLog)
-            Log.Message($"[OMW] Costume pool evaluated for {__result.LabelShortCap} ({__result.ThingID}): {available.Count} valid/enabled entries out of {pool.Count} for {__result.DevelopmentalStage}.");
+            Log.Message($"[OMW] Costume pool evaluated for {__result.LabelShortCap} ({__result.ThingID}): {available.Count} valid/enabled entries out of {pool.Count + additionalCostumes.Count} for {__result.DevelopmentalStage}.");
 
         if (available.Count == 0)
         {
@@ -157,7 +167,7 @@ public static class SamhainCostumeGenerator
             || def.apparel.layers.NullOrEmpty())
             return false;
 
-        if (allowNonOuterwearLayers)
+        if (allowNonOuterwearLayers || CoversFullHead(def))
             return true;
 
         foreach (ApparelLayerDef layer in def.apparel.layers)
@@ -210,6 +220,19 @@ public static class SamhainCostumeGenerator
                 return;
             }
         }
+    }
+
+    private static bool CoversFullHead(ThingDef def)
+    {
+        if (def.apparel?.bodyPartGroups == null)
+            return false;
+
+        foreach (BodyPartGroupDef group in def.apparel.bodyPartGroups)
+        {
+            if (group.defName == "FullHead")
+                return true;
+        }
+        return false;
     }
 
     private static bool HasOnlyOuterwearOrHeadwearLayers(ThingDef def)

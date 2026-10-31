@@ -309,3 +309,74 @@ internal static class SamhainCostumeSettingsPage
         return def.modContentPack?.Name ?? "OMW_UnknownMod".Translate().ToString();
     }
 }
+
+internal static class SamhainAdditionalFullHeadSettingsPage
+{
+    private const float RowHeight = 44f;
+    private const float IconSize = 36f;
+    private const float CheckboxSize = 24f;
+
+    public static void Draw(Rect inRect, SamhainXenotypeHHSettings settings, ref Vector2 scrollPosition, System.Action writeSettings)
+    {
+        const float descriptionHeight = 42f;
+        Widgets.Label(new Rect(inRect.x, inRect.y, inRect.width, descriptionHeight), "OMW_AdditionalFullHeadDescription".Translate());
+        inRect.y += descriptionHeight;
+        inRect.height -= descriptionHeight;
+
+        List<SamhainCostumeSet> costumes = SamhainCostumePoolDef.GetAdditionalFullHeadCostumes();
+        if (costumes.Count == 0)
+        {
+            Widgets.Label(inRect, "OMW_NoAdditionalFullHeadItems".Translate());
+            return;
+        }
+
+        float contentHeight = costumes.Count * RowHeight;
+        float viewHeight = Mathf.Max(inRect.height, contentHeight);
+        Rect viewRect = new(0f, 0f, inRect.width - 16f, viewHeight);
+        Widgets.BeginScrollView(inRect, ref scrollPosition, viewRect);
+        try
+        {
+            GameFont previousFont = Text.Font;
+            TextAnchor previousAnchor = Text.Anchor;
+            try
+            {
+                Text.Font = GameFont.Tiny;
+                Text.Anchor = TextAnchor.MiddleLeft;
+                float y = 0f;
+                foreach (SamhainCostumeSet costume in costumes)
+                {
+                    ThingDef? apparel = costume.headwear;
+                    if (apparel == null)
+                        continue;
+
+                    bool enabled = settings.IsCostumeEnabled(costume);
+                    bool previousValue = enabled;
+                    Widgets.Checkbox(new Vector2(4f, y + 10f), ref enabled, CheckboxSize);
+                    if (enabled != previousValue)
+                    {
+                        settings.SetCostumeEnabled(costume, enabled);
+                        writeSettings();
+                    }
+
+                    Rect iconRect = new(38f, y + 4f, IconSize, IconSize);
+                    Widgets.DefIcon(iconRect, apparel);
+                    string source = apparel.modContentPack?.Name ?? "OMW_UnknownMod".Translate().ToString();
+                    Rect labelRect = new(iconRect.xMax + 8f, y + 4f, viewRect.width - iconRect.xMax - 16f, RowHeight - 8f);
+                    Widgets.Label(labelRect, "OMW_AdditionalFullHeadItemLine".Translate(apparel.LabelCap, source));
+                    TooltipHandler.TipRegion(labelRect, new TipSignal(apparel.LabelCap + "\\n\\n" + apparel.DescriptionDetailed, apparel.GetHashCode()));
+                    Widgets.DrawLine(new Vector2(0f, y + RowHeight - 1f), new Vector2(viewRect.width, y + RowHeight - 1f), new Color(0.35f, 0.35f, 0.35f), 1f);
+                    y += RowHeight;
+                }
+            }
+            finally
+            {
+                Text.Font = previousFont;
+                Text.Anchor = previousAnchor;
+            }
+        }
+        finally
+        {
+            Widgets.EndScrollView();
+        }
+    }
+}
