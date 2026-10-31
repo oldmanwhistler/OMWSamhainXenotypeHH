@@ -78,7 +78,7 @@ See [list of mods supported for the Costume Pool](https://github.com/oldmanwhist
 ## Links
 
 - [Changelog](https://github.com/oldmanwhistler/OMWSamhainXenotypeHH/blob/main/Docs/CHANGELOG.md)
-- Steam
+- [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3830647035)
 - [GitHub](https://github.com/oldmanwhistler/OMWSamhainXenotypeHH)
 - [AI Disclosure](https://github.com/oldmanwhistler/OMWSamhainXenotypeHH/blob/main/Docs/AI.md)
 - [MIT License](https://github.com/oldmanwhistler/OMWSamhainXenotypeHH/blob/main/LICENSE)
@@ -87,6 +87,6 @@ See [list of mods supported for the Costume Pool](https://github.com/oldmanwhist
 
 This is an unofficial, non-commercial fan work, not affiliated with, endorsed by, or sponsored by Michael Dougherty or Sam: The Soul of Halloween. It does not include any assets or intellectual propery from Michael Dougherty, Trick 'R Treat, etc.
 
-![Samhain gathering](https://github.com/oldmanwhistler/OMWSamhainXenotypeHH/blob/main/Docs/images/splash-big.png)
+![Samhain gathering](https://raw.githubusercontent.com/oldmanwhistler/OMWSamhainXenotypeHH/refs/heads/main/Docs/images/splash-big.png)
 
 keywords: halloween, trick or treat, costumes, medieval overhaul
