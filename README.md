@@ -13,6 +13,7 @@
 - Samhain with Costumed gene will have anonymity need from Vanilla Memes and Structures Expanded no matter what their Ideology is.
 - Samhain with Sweet Tooth gene will have dessert need from Vanilla Cooking Expanded no matter what their Ideology is.
 - Costume Pool: Samhain joiners wear costumes from various mods if they are installed.
+- Ideology Presets: Adds 4 new ideology presets themed around Darkness.
 
 ## Inspiration
 
@@ -61,15 +62,38 @@ See [list of mods supported for the Costume Pool](https://github.com/oldmanwhist
 ![halloween costumes](https://raw.githubusercontent.com/oldmanwhistler/OMWSamhainXenotypeHH/refs/heads/main/Docs/images/costume_halloween.png)
 ![medieval styles](https://raw.githubusercontent.com/oldmanwhistler/OMWSamhainXenotypeHH/refs/heads/main/Docs/images/costume_medieval.png)
 
+## Ideology Presets
+
+Adds four darkness-based ideology presets using existing memes.
+
+### Shadow Raiders
+
+![shadow raiders](https://raw.githubusercontent.com/oldmanwhistler/OMWSamhainXenotypeHH/refs/heads/main/Docs/images/ideology_shadow_raiders.png)
+
+### Wandering Scrappers
+
+Roleplay as Jawas.
+
+![wandering scrappers](https://raw.githubusercontent.com/oldmanwhistler/OMWSamhainXenotypeHH/refs/heads/main/Docs/images/ideology_wandering_scrappers.png)
+
+### Dark Anonymity
+
+![dark anonymity](https://raw.githubusercontent.com/oldmanwhistler/OMWSamhainXenotypeHH/refs/heads/main/Docs/images/ideology_dark_anonymity.png)
+
+### Faceless Seers
+
+![faceless seers](https://raw.githubusercontent.com/oldmanwhistler/OMWSamhainXenotypeHH/refs/heads/main/Docs/images/ideology_faceless_seers.png)
+
 ## Technical Details
 
 - Safe to add to save. Safe to remove from save if you leave the base Samhain Xenotype mod in.
 - VME and VCE are patched so that Anonymity and Dessert needs can be enabled by genes.
-- There are 13 items who aren't FullHead apparel, but we patch them so they work with the anonymity need because they are COOL.
+- There are several costume masks that aren't FullHead apparel, but I patch them so they work with the anonymity need because they are COOL and HALLOWEEN THEMED.
   - Lava’s Spooky Halloween: Cambion Mask, Harlequin Mask, Devil Mask, Skull Mask — originally Eyes.
   - Lisa’s Peasant Apparel: Executioner Hood, Plague Doctor Mask — originally UpperHead.
   - Pan-Halloweenie Integration II: Witches Hat, Mummy Head, Wolfman Mask, Devil Head — originally UpperHead.
   - Biomes! Fossils: Carnivore, Herbivore, and Mascot Dino Hats — originally UpperHead.
+  - Ponpeco Kids' Clothes: Witch Hat, Werewolf Hood, Cat Ear Hood, and Dino Hood - originally UpperHead.
 
 ## Language Support
 

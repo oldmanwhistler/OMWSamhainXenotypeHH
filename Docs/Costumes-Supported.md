@@ -64,6 +64,14 @@ Any FullHead apparel can also be enabled as a costume in the mod settings even i
 
 ![Lava's Spooky Halloween](https://raw.githubusercontent.com/oldmanwhistler/OMWSamhainXenotypeHH/refs/heads/main/Docs/images/Costumes/LavasSpookyHalloweenExtravaganza.png)
 
+### [Ponpeco Kids' Clothes](https://steamcommunity.com/sharedfiles/filedetails/?id=3237739433)
+
+![Ponpeco Kids' Clothes](https://raw.githubusercontent.com/oldmanwhistler/OMWSamhainXenotypeHH/refs/heads/main/Docs/images/Costumes/PonpekosKidsClothes.png)
+
+![Ponpeco Kids' Clothes](https://raw.githubusercontent.com/oldmanwhistler/OMWSamhainXenotypeHH/refs/heads/main/Docs/images/Costumes/PonpekosKidsClothes2.png)
+
+![Ponpeco Kids' Clothes](https://raw.githubusercontent.com/oldmanwhistler/OMWSamhainXenotypeHH/refs/heads/main/Docs/images/Costumes/PonpekosKidsClothes_AdultPatch.png)
+
 ## Additional supported Workshop mods
 
 ### Hats, costumes, and apparel
