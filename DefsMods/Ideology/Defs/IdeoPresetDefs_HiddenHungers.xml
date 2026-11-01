@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <IdeoPresetDef>
+    <defName>OMW_HiddenHungers_RaiderFeast</defName>
+    <label>shadow raiders</label>
+    <description>In the darkness, the strong take what they can and the fallen sustain the living. Our beliefs must spread, even by force.</description>
+    <categoryDef>Intense</categoryDef>
+    <memes>
+      <li>Raider</li>
+      <li>Darkness</li>
+      <li>Cannibal</li>
+      <li>VME_ViolentConversion</li>
+    </memes>
+  </IdeoPresetDef>
+  <IdeoPresetDef>
+    <defName>OMW_HiddenHungers_NomadicScrappers</defName>
+    <label>wandering scrappers</label>
+    <description>We travel light and never settle. The road's abandoned machines and ruins are tools for the next leg of our journey, and we find comfort in the darkness.</description>
+    <categoryDef>Intense</categoryDef>
+    <memes>
+      <li>VME_Nomad</li>
+      <li>VME_Scrapper</li>
+      <li>Darkness</li>
+    </memes>
+  </IdeoPresetDef>
+  <IdeoPresetDef>
+    <defName>OMW_HiddenHungers_FacelessSeers</defName>
+    <label>faceless seers</label>
+    <description>We conceal our identities and turn from ordinary sight. In blindness we perceive hidden truth, while anonymity shields us from the judgments of others.</description>
+    <categoryDef>Intense</categoryDef>
+    <memes>
+      <li>Blindsight</li>
+      <li>VME_Anonymity</li>
+      <li MayRequire="Ludeon.RimWorld.Royalty">VME_PsychicFocus</li>
+    </memes>
+  </IdeoPresetDef>
+  <IdeoPresetDef>
+    <defName>OMW_HiddenHungers_DarkAnonymity</defName>
+    <label>dark anonymity</label>
+    <description>In the darkness, we guard our identities and turn our minds inward. Psychic discipline sharpens our focus without exposing who we are.</description>
+    <categoryDef>Intense</categoryDef>
+    <memes>
+      <li>Darkness</li>
+      <li>VME_Anonymity</li>
+      <li MayRequire="Ludeon.RimWorld.Royalty">VME_PsychicFocus</li>
+    </memes>
+  </IdeoPresetDef>
+</Defs>
