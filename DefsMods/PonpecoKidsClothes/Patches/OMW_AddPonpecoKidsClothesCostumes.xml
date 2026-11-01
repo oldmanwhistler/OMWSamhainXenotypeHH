@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="Apparel_PKCHWitchHat"]</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_PKCHWitchHat"]/apparel</xpath>
+          <value><bodyPartGroups Inherit="False"><li>FullHead</li></bodyPartGroups></value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/SamhainXenotypeHH.SamhainCostumePoolDef[defName="OMW_SamhainCostumePool"]/childCostumes</xpath>
+          <value><li><headwear>Apparel_PKCHWitchHat</headwear><bodyPiece>Apparel_PKCHalloweenWitch</bodyPiece><defaultEnabled>true</defaultEnabled></li></value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="Apparel_PKCHWerewolfHood"]</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_PKCHWerewolfHood"]/apparel</xpath>
+          <value><bodyPartGroups Inherit="False"><li>FullHead</li></bodyPartGroups></value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/SamhainXenotypeHH.SamhainCostumePoolDef[defName="OMW_SamhainCostumePool"]/childCostumes</xpath>
+          <value><li><headwear>Apparel_PKCHWerewolfHood</headwear><bodyPiece>Apparel_PKCHalloweenWerewolf</bodyPiece><defaultEnabled>true</defaultEnabled></li></value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="Apparel_PPKCatEarHood"]</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_PPKCatEarHood"]/apparel</xpath>
+          <value><bodyPartGroups Inherit="False"><li>FullHead</li></bodyPartGroups></value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/SamhainXenotypeHH.SamhainCostumePoolDef[defName="OMW_SamhainCostumePool"]/childCostumes</xpath>
+          <value><li><headwear>Apparel_PPKCatEarHood</headwear><bodyPiece>Apparel_PPKCatPajama</bodyPiece><defaultEnabled>true</defaultEnabled></li></value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="Apparel_PPKDinoHood"]</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Apparel_PPKDinoHood"]/apparel</xpath>
+          <value><bodyPartGroups Inherit="False"><li>FullHead</li></bodyPartGroups></value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/SamhainXenotypeHH.SamhainCostumePoolDef[defName="OMW_SamhainCostumePool"]/childCostumes</xpath>
+          <value><li><headwear>Apparel_PPKDinoHood</headwear><bodyPiece>Apparel_PPKDinoPajama</bodyPiece><defaultEnabled>true</defaultEnabled></li></value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="Apparel_PKCVacsuitHelmetA"]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/SamhainXenotypeHH.SamhainCostumePoolDef[defName="OMW_SamhainCostumePool"]/childCostumes</xpath>
+      <value><li><headwear>Apparel_PKCVacsuitHelmetA</headwear><bodyPiece>Apparel_PKCVacsuitChildrenA</bodyPiece><defaultEnabled>false</defaultEnabled></li></value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="Apparel_PKCVacsuitHelmetB"]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/SamhainXenotypeHH.SamhainCostumePoolDef[defName="OMW_SamhainCostumePool"]/childCostumes</xpath>
+      <value><li><headwear>Apparel_PKCVacsuitHelmetB</headwear><bodyPiece>Apparel_PKCVacsuitChildrenB</bodyPiece><defaultEnabled>false</defaultEnabled></li></value>
+    </match>
+  </Operation>
+</Patch>

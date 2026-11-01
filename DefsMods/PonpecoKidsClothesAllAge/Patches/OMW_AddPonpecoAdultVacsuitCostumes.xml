@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="Apparel_PKCVacsuitHelmetA"]/apparel/developmentalStageFilter[.="Adult,Child"]</xpath>
+    <match Class="PatchOperationConditional">
+      <xpath>/Defs/ThingDef[defName="Apparel_Vacsuit"]</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>/Defs/SamhainXenotypeHH.SamhainCostumePoolDef[defName="OMW_SamhainCostumePool"]/adultCostumes</xpath>
+        <value><li><headwear>Apparel_PKCVacsuitHelmetA</headwear><bodyPiece>Apparel_Vacsuit</bodyPiece><defaultEnabled>false</defaultEnabled></li></value>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="Apparel_PKCVacsuitHelmetB"]/apparel/developmentalStageFilter[.="Adult,Child"]</xpath>
+    <match Class="PatchOperationConditional">
+      <xpath>/Defs/ThingDef[defName="Apparel_Vacsuit"]</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>/Defs/SamhainXenotypeHH.SamhainCostumePoolDef[defName="OMW_SamhainCostumePool"]/adultCostumes</xpath>
+        <value><li><headwear>Apparel_PKCVacsuitHelmetB</headwear><bodyPiece>Apparel_Vacsuit</bodyPiece><defaultEnabled>false</defaultEnabled></li></value>
+      </match>
+    </match>
+  </Operation>
+</Patch>

@@ -32,5 +32,7 @@
     <li IfModActive="BigT.HouseIgnivar">DefsMods/HouseIgnivar</li>
     <li IfModActive="Settlerking.Mo.Zahir">DefsMods/HouseZahir</li>
     <li IfModActive="DankPyon.Medieval.Overhaul">DefsMods/MedievalOverhaul</li>
+    <li IfModActive="ponpeco.KidsClothes">DefsMods/PonpecoKidsClothes</li>
+    <li IfModActiveAll="ponpeco.KidsClothes, ponpeco.PKCAllAgePatch, Ludeon.RimWorld.Odyssey">DefsMods/PonpecoKidsClothesAllAge</li>
   </v1.7>
 </loadFolders>
